@@ -18,7 +18,7 @@ import Evaluate from "../components/evaluate/Evaluate";
         {
             path:'/evaluate/:id',
             element:<Evaluate/>,
-            loader: ({params})=>fetch(`http://localhost:3000/evaluate/${params.id}`)
+            loader: ({params})=>fetch(`https://catalog-frontend.onrender.com/evaluate/${params.id}`)
         },
     ]
     },
