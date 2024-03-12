@@ -8,7 +8,7 @@ const RankedData = ({id}) => {
 
     useEffect(() => {
         // fetch("http://localhost:5000/api/olx")
-        fetch("http://127.0.0.1:5000/api/olx")
+        fetch("https://catalog-python-backend.onrender.com/api/olx")
             .then(res => res.json())
             .then(info => setData(info));
             // fetch({url})
