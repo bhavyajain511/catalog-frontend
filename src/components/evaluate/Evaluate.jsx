@@ -4,7 +4,8 @@ import {useLoaderData,useParams} from "react-router-dom"
 import RankedData from '../RankedData/RankedData';
 
 const Evaluate = () => {
-    const {id}=useParams();
+    // const {id}=useParams();
+    const id="olx";
     console.log(id);
   return (
     <div className='evaluate-content'>
